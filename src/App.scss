@@ -1,0 +1,48 @@
+.lightdarkmode:hover{
+    cursor: pointer;
+}
+
+
+.bounce {
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 0.5s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 5s infinite linear;
+    // animation-name: bounce;
+    // animation-duration: 5s;
+    // animation-iteration-count: 5;
+    // animation-timing-function: linear;
+  }
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      5% { top: -0.7em; }
+      6% { top: -0.8em; }
+      8% { top: 0; }
+      100% { top: 0; }
+  }
