@@ -22,16 +22,16 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         <div id="carouselExampleFade" className="hero-bg parallax carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="images/intro-bg1.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+              <img src="images/intro-bg1.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt="Portfolio Background Image 1"/>
             </div>
             <div className="carousel-item">
-              <img src="images/intro-bg2.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+              <img src="images/intro-bg2.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt="Portfolio Background Image 2"/>
             </div>
             <div className="carousel-item">
-              <img src="images/intro-bg3.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+              <img src="images/intro-bg3.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt="Portfolio Background Image 3"/>
             </div>
             <div className="carousel-item">
-              <img src="images/intro-bg4.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+              <img src="images/intro-bg4.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt="Portfolio Background Image 4"/>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   Hire Me
                 </a>
                 <a
-                  className="btn btn-outline-primary rounded-pill shadow-none"
+                  className="btn btn-outline-primary rounded-pill shadow-none mt-2"
                   href={'https://drive.google.com/file/d/1rrYHcoMHK7aSmcoWvKaRWbk4VMJuDEj-/view?usp=sharing'}
                   target='_blank'
                   rel="noopener noreferrer"

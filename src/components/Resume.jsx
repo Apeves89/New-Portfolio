@@ -59,7 +59,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "ReactJS",
-      percent: 75,
+      percent: 80,
     },
     {
       name: "Node.js",
@@ -67,7 +67,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "Express",
-      percent: 75,
+      percent: 80,
     },
     {
       name: "EJS",

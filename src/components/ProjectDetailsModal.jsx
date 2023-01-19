@@ -78,7 +78,7 @@ const ProjectDetailsModal = ({ darkTheme, projectDetails }) => {
                       {projectDetails?.sliderImages?.length > 0 &&
                         projectDetails?.sliderImages?.map((image, index) => (
                           <div className="item" key={index}>
-                            <img className="img-fluid" alt="" src={image} />
+                            <img className="img-fluid" alt={"project image " + index} src={image} />
                           </div>
                         ))}
                     </Slider>

@@ -244,7 +244,6 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     <>
       <section
         id="portfolio"
-        style={{height:"100vh"}}
         className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
       >
         <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
@@ -319,7 +318,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                           }}
                           className="img-fluid d-block portfolio-image"
                           src={project.thumbImage}
-                          alt=""
+                          alt="Project Thumbnail"
                         />
                         <div className="portfolio-overlay">
                           <a

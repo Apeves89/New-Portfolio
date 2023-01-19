@@ -2,7 +2,7 @@ import React from "react";
 // import resumeFile from "../documents/resume.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
-    <section id="about" style={{height:"100vh"}} className={"section " + (darkTheme ? "bg-dark-1" : "")}>
+    <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
         <div className="position-relative d-flex text-center mb-5">
@@ -36,16 +36,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I am <span className="text-primary">Alexis Peves,</span> a Software Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque egestas congue quisque egestas diam in arcu cursus euismod. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Tristique senectus et netus et malesuada fames ac. Cursus sit amet dictum sit. Aliquam nulla facilisi cras fermentum odio eu. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. In arcu cursus euismod quis viverra. Lacus viverra vitae congue eu consequat ac felis donec et. Tristique nulla aliquet enim tortor at auctor urna. Ornare lectus sit amet est placerat in egestas. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Lacus viverra vitae congue eu consequat ac felis donec. Duis ut diam quam nulla porttitor massa id.
-
-
+            with an education in Mechanical Engineering and nearly a decade of experience in the manufacturing industry which involved collaborating with a team to enhance workflow productivity. My background in manufacturing has sharpened my problem-solving abilities along with my analytical skills.
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-            Cursus risus at ultrices mi tempus imperdiet. Cursus euismod quis viverra nibh cras pulvinar mattis. Aliquet lectus proin nibh nisl condimentum id venenatis. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Tortor posuere ac ut consequat. Sed felis eget velit aliquet sagittis id consectetur. Amet mattis vulputate enim nulla aliquet. Pharetra pharetra massa massa ultricies mi. Libero nunc consequat interdum varius sit amet mattis vulputate. Nulla aliquet porttitor lacus luctus accumsan. Lectus arcu bibendum at varius vel. Mattis pellentesque id nibh tortor id aliquet. Non consectetur a erat nam. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Mi proin sed libero enim. Mi sit amet mauris commodo. Magna sit amet purus gravida. Vitae justo eget magna fermentum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Molestie at elementum eu facilisis sed odio.
+            I am committed to continuously expanding my knowledge and skillset, both in my professional and personal life, as it is a passion that drives me. My passion for self-improvement and learning is evident in the diverse range of hobbies and interests I have acquired over the years, including plumbing, wood-working, automotive repair, PC building and crafting. They have helped me develop valuable skills that are transferable to software development such as attention to detail, multitasking, independence, proficiency in working with complex systems and ability to work under pressure. 
             </p>
-            {/* <p className={darkTheme ? "text-white-50" : ""}>
-              After college, I took up some hobbies/crafts to take up some free time. One in particular stuck with me over the years and I keep coming back to it over the years. Crochet has been a favorite of mine because it's relaxing and you can make some beautiful projects.
-            </p> */}
+            <p className={darkTheme ? "text-white-50" : ""}>
+            I am eager to immerse myself in the dynamic and ever-evolving field of Software Engineering and join a team where I can continue to learn, grow, and explore the various technologies and advancements in this field. 
+            </p>
             
           </div>
           {/* About me content end */}
