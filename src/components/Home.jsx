@@ -6,13 +6,35 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
     <section id="home">
       <div className="hero-wrap">
+        {darkTheme ?
         <div className="hero-mask opacity-8 bg-dark" />
+        :
+        <div className="hero-mask opacity-7 bg-dark" />
+        }
+        
 
         {/* ---------------image background------------------ */}
-        <div
+        {/* <div
           className="hero-bg parallax"
           style={{ backgroundImage: 'url("images/intro-bg2.jpg")' }}
-        ></div>
+        ></div> */}
+
+        <div id="carouselExampleFade" className="hero-bg parallax carousel slide carousel-fade" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src="images/intro-bg1.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img src="images/intro-bg2.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img src="images/intro-bg3.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+            </div>
+            <div className="carousel-item">
+              <img src="images/intro-bg4.jpg" style={{ width: "100%", height: "100vh", objectFit: "cover" }} alt=""/>
+            </div>
+          </div>
+        </div>
 
         {/* -------------------video background---------------------- */}
 
@@ -38,7 +60,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                         "I am Alexis Peves",
                         "I am a Software Engineer",
                         "I am a Mechanical Engineer",
-                        "I am a Crafter.",
+                        "I am a Crafter ...",
                       ],
                       autoStart: true,
                       loop: true,

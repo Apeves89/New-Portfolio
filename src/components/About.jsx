@@ -36,21 +36,24 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               I am <span className="text-primary">Alexis Peves,</span> a Software Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              a me
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque egestas congue quisque egestas diam in arcu cursus euismod. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Tristique senectus et netus et malesuada fames ac. Cursus sit amet dictum sit. Aliquam nulla facilisi cras fermentum odio eu. Aliquet lectus proin nibh nisl condimentum id venenatis a condimentum. In arcu cursus euismod quis viverra. Lacus viverra vitae congue eu consequat ac felis donec et. Tristique nulla aliquet enim tortor at auctor urna. Ornare lectus sit amet est placerat in egestas. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Lacus viverra vitae congue eu consequat ac felis donec. Duis ut diam quam nulla porttitor massa id.
+
+
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I have always been interested in learning different trades and skills that I can use throughout life. Started with learning construction trades(plumbing, electrical, carpentry, and HVAC) in vo-tech high school. After high school I explored automotive work(both body and mechanical work) with friends and family. I like to challenge myself to learn different things.
+            Cursus risus at ultrices mi tempus imperdiet. Cursus euismod quis viverra nibh cras pulvinar mattis. Aliquet lectus proin nibh nisl condimentum id venenatis. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Tortor posuere ac ut consequat. Sed felis eget velit aliquet sagittis id consectetur. Amet mattis vulputate enim nulla aliquet. Pharetra pharetra massa massa ultricies mi. Libero nunc consequat interdum varius sit amet mattis vulputate. Nulla aliquet porttitor lacus luctus accumsan. Lectus arcu bibendum at varius vel. Mattis pellentesque id nibh tortor id aliquet. Non consectetur a erat nam. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Mi proin sed libero enim. Mi sit amet mauris commodo. Magna sit amet purus gravida. Vitae justo eget magna fermentum. Sapien et ligula ullamcorper malesuada proin libero nunc consequat interdum. Molestie at elementum eu facilisis sed odio.
             </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
+            {/* <p className={darkTheme ? "text-white-50" : ""}>
               After college, I took up some hobbies/crafts to take up some free time. One in particular stuck with me over the years and I keep coming back to it over the years. Crochet has been a favorite of mine because it's relaxing and you can make some beautiful projects.
-              </p>
+            </p> */}
+            
           </div>
           {/* About me content end */}
           {/* about me personal details start */}
-          {/* <div className="col-lg-5 col-xl-4">
+          <div className="col">
             <div className="ps-lg-4">
-              <ul
-                className={
+            {/* <ul
+            className={
                   "list-style-2 " +
                   (darkTheme ? "list-style-light text-light" : "")
                 }
@@ -76,9 +79,23 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 className="btn btn-primary rounded-pill"
               >
                 Download CV
-              </a>
+              </a> */}
+              <figure className="text-end">
+              <blockquote className="blockquote fst-italic text-muted">
+                <p>"Don’t be a know-it-all.
+                  {darkTheme ?
+                  <span className="text-white"> Be a learn-it-all</span>
+                  :
+                  <span className="text-black"> Be a learn-it-all</span>
+                  }
+                  ."</p>
+              </blockquote>
+              <figcaption className="blockquote-footer text-primary">
+              <cite title="Source Title">Satya Nadella, CEO, Microsoft</cite>
+              </figcaption>
+            </figure>
             </div>
-          </div> */}
+          </div>
           {/* about me personal details end */}
         </div>
         {/* projects rewards counting start */}
