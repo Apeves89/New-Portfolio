@@ -55,6 +55,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="contact"
+      style={{height:"100vh"}}
       className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
       
     >

@@ -2,7 +2,7 @@ import React from "react";
 // import resumeFile from "../documents/resume.pdf";
 const AboutUs = ({ classicHeader, darkTheme }) => {
   return (
-    <section id="about" className={"section " + (darkTheme ? "bg-dark-1" : "")}>
+    <section id="about" style={{height:"100vh"}} className={"section " + (darkTheme ? "bg-dark-1" : "")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
         <div className="position-relative d-flex text-center mb-5">

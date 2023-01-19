@@ -244,6 +244,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     <>
       <section
         id="portfolio"
+        style={{height:"100vh"}}
         className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
       >
         <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
