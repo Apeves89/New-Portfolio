@@ -51,7 +51,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       projectInfo:
         "Project Showcase is an app where users can upload and show their personal projects. The users can provide images, a summary about the project and useful links in creating the project. The app is hosted on Heroku, please allow time for the app to start up before viewing.",
       client: "Ruby Clinton",
-      technologies: "Node.js, Express, EJS, MongoDB, Bootstrap, jQuery",
+      technologies: "NodeJS, ExpressJS, EJS, MongoDB, Bootstrap, jQuery",
       industry: "Art & Design",
       date: "July 16, 2019",
       url: {
@@ -73,6 +73,35 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       sliderImages: [
         "images/projects/showcase-2.jpeg",
         "images/projects/showcase-3.jpeg"
+      ],
+      categories: [filters.DEVELOPMENT],
+    },
+    {
+      title: "Crafting Stash",
+      projectInfo:
+        "Crafting Stash is a tracking app created for knitters and crocheters. It allows them to keep track of what yarn and hooks/needles they have acquired. This app was created by 2 developers, including myself. The app is hosted on Heroku, please allow time for the app to start up before viewing.",
+      client: "Ruby Clinton",
+      technologies: "MongoDB, ExpressJS, ReactJS, NodeJS",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "Crafting Stash",
+        link: "https://desolate-island-81438.herokuapp.com/",
+      },
+      repo:{
+        name:"Backend",
+        link: "https://github.com/romajoy/personal-stash-backend",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/craftstash-1.jpeg",
+      sliderImages: [
+        "images/projects/craftstash-2.jpeg","images/projects/craftstash-3.jpeg","images/projects/craftstash-4.jpeg",
       ],
       categories: [filters.DEVELOPMENT],
     },

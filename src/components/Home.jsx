@@ -82,7 +82,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 </a>
                 <a
                   className="btn btn-outline-primary rounded-pill shadow-none mt-2"
-                  href={'https://drive.google.com/file/d/1rrYHcoMHK7aSmcoWvKaRWbk4VMJuDEj-/view?usp=sharing'}
+                  href={'https://drive.google.com/file/d/1DDY3ZXRSkgsv8ibqdiCBoPXRQ1QlKO1s/view?usp=sharing'}
                   target='_blank'
                   rel="noopener noreferrer"
                 >

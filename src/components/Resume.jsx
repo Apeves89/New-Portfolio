@@ -62,11 +62,11 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 80,
     },
     {
-      name: "Node.js",
+      name: "NodeJS",
       percent: 80,
     },
     {
-      name: "Express",
+      name: "ExpressJS",
       percent: 80,
     },
     {
@@ -228,7 +228,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         <div className="text-center mt-5">
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
-            href={'https://drive.google.com/file/d/1rrYHcoMHK7aSmcoWvKaRWbk4VMJuDEj-/view?usp=sharing'}
+            href={'https://drive.google.com/file/d/1DDY3ZXRSkgsv8ibqdiCBoPXRQ1QlKO1s/view?usp=sharing'}
             target='_blank'
             rel="noopener noreferrer"
           >
