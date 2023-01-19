@@ -56,6 +56,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
     <section
       id="contact"
       className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
+      style={{height:"100vh"}}
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}

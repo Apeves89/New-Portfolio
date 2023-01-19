@@ -7,7 +7,7 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 // import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import ClassicHeader from "./components/ClassicHeader";
 import { commonConfig } from "./config/commonConfig";
@@ -100,11 +100,11 @@ function App() {
               darkTheme={darkTheme}
             ></Contact>
           </div>
-          <Footer
+          {/* <Footer
             classicHeader={classicHeader}
             darkTheme={darkTheme}
             handleNavClick={handleNavClick}
-          ></Footer>
+          ></Footer> */}
         </div>
         {/* back to top */}
         <Tooltip text="Back to Top" placement="left">
