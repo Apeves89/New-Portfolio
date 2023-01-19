@@ -47,47 +47,47 @@ const Resume = ({ classicHeader, darkTheme }) => {
   const skills = [
     {
       name: "JavaScript",
-      percent: 1,
-    },
-    {
-      name: "ReactJS",
-      percent: 1,
-    },
-    {
-      name: "Node.js",
-      percent: 1,
-    },
-    {
-      name: "HTML/CSS",
-      percent: 1,
-    },
-    {
-      name: "Express",
-      percent: 1,
-    },
-    {
-      name: "EJS",
-      percent: 1,
-    },
-    {
-      name: "Django",
-      percent: 1,
+      percent: 85,
     },
     {
       name: "Python",
-      percent: 1,
+      percent: 70,
+    },
+    {
+      name: "HTML/CSS",
+      percent: 80,
+    },
+    {
+      name: "ReactJS",
+      percent: 75,
+    },
+    {
+      name: "Node.js",
+      percent: 80,
+    },
+    {
+      name: "Express",
+      percent: 75,
+    },
+    {
+      name: "EJS",
+      percent: 80,
+    },
+    {
+      name: "Django",
+      percent: 70,
     },
     {
       name: "PostgreSQL",
-      percent: 1,
+      percent: 70,
     },
     {
       name: "MongoDB",
-      percent: 1,
+      percent: 75,
     },
     {
       name: "Git/Github",
-      percent: 1,
+      percent: 80,
     },
   ];
 
