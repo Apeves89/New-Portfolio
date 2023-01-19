@@ -56,7 +56,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
     <section
       id="contact"
       className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
-      style={{height:"100vh"}}
+      
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
@@ -81,7 +81,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
           </p>
         </div>
         {/* Heading end*/}
-        <div className="row gy-5 justify-content-center">
+        <div className="row gy-5 align-content-center justify-content-center"
+        style={{height:"80vh"}}>
           {/* contact details */}
           <div className="col-5 order-1 text-center">
             {/* <h2
