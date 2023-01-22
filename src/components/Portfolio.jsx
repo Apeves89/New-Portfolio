@@ -106,37 +106,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       categories: [filters.DEVELOPMENT],
     },
     {
-      title: "Project Coming soon",
-      projectInfo:
-        "Actively learning new technologies to create web applications.",
-      client: "Ruby Clinton",
-      technologies: "Not Available Yet",
-      industry: "Art & Design",
-      date: "July 16, 2019",
-      url: {
-        name: "",
-        link: "",
-      },
-      repo:{
-        name:"",
-        link: "",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
-      thumbImage: "images/projects/newproject.jpg",
-      sliderImages: [
-      ],
-      categories: [filters.DEVELOPMENT],
-    },
-    {
       title: "Llama Amigurumi",
       projectInfo:
-        "After two years of crocheting, I found the perfect llama pattern to follow. I had to translate and transcribe this pattern into my notes for future iterations. This crochet pattern was created by Knitoys & Crafts. Video link provided below.",
+      "After two years of crocheting, I found the perfect llama pattern to follow. I had to translate and transcribe this pattern into my notes for future iterations. This crochet pattern was created by Knitoys & Crafts. Video link provided below.",
       client: "Ruby Clinton",
       technologies: "Crocheting",
       industry: "Art & Design",
@@ -165,7 +137,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Conrad the Crocodile",
       projectInfo:
-        "Conrad is one of my first and most intricate crochet patterns I have attempted so far. Consisted of 20+ parts that were required to be sewn together. Crochet pattern was created by IlDikko. Link to the pattern below.",
+      "Conrad is one of my first and most intricate crochet patterns I have attempted so far. Consisted of 20+ parts that were required to be sewn together. Crochet pattern was created by IlDikko. Link to the pattern below.",
       client: "Ruby Clinton",
       technologies: "Crocheting",
       industry: "Art & Design",
@@ -190,6 +162,34 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         "https://i.imgur.com/KyI4Otj.jpg",
       ],
       categories: [filters.CRAFTING],
+    },
+    {
+      title: "Project Coming soon",
+      projectInfo:
+        "Actively learning new technologies to create web applications.",
+      client: "Ruby Clinton",
+      technologies: "Not Available Yet",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "",
+        link: "",
+      },
+      repo:{
+        name:"",
+        link: "",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/newproject.jpg",
+      sliderImages: [
+      ],
+      categories: [filters.DEVELOPMENT,filters.CRAFTING],
     },
     // {
     //   title: "Project Title 6",
