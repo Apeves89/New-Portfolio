@@ -56,7 +56,8 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                   <Typewriter
                     onInit={(typewriter)=>{
-                      typewriter.typeString('I am Alexis Peves')
+                      typewriter.pauseFor(1500)
+                      .typeString('I am Alexis Peves')
                       .pauseFor(1500)
                       .deleteChars(12)
                       .typeString('a Software Engineer')
