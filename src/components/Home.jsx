@@ -55,14 +55,28 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 <p className="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                   <Typewriter
+                    onInit={(typewriter)=>{
+                      typewriter.typeString('I am Alexis Peves')
+                      .pauseFor(1500)
+                      .deleteChars(12)
+                      .typeString('a Software Engineer')
+                      .pauseFor(1500)
+                      .deleteChars(17)
+                      .typeString('Mechanical Engineer')
+                      .pauseFor(1500)
+                      .deleteChars(19)
+                      .typeString('Crafter ...')
+                      .pauseFor(1500)
+                      .start()
+                    }}
                     options={{
-                      strings: [
-                        "I am Alexis Peves",
-                        "I am a Software Engineer",
-                        "I am a Mechanical Engineer",
-                        "I am a Crafter ...",
-                      ],
-                      autoStart: true,
+                      // strings: [
+                      //   "I am Alexis Peves",
+                      //   "I am a Software Engineer",
+                      //   "I am a Mechanical Engineer",
+                      //   "I am a Crafter ...",
+                      // ],
+                      // autoStart: true,
                       loop: true,
                     }}
                   />
