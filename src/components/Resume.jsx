@@ -86,8 +86,20 @@ const Resume = ({ classicHeader, darkTheme }) => {
       percent: 75,
     },
     {
-      name: "Git/Github",
-      percent: 80,
+      name: "Git",
+      percent: 70,
+    },
+    {
+      name: "Github",
+      percent: 70,
+    },
+    {
+      name: "Java",
+      percent: 50,
+    },
+    {
+      name: "Spring",
+      percent: 50,
     },
   ];
 
