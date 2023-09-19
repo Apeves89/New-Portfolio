@@ -17,6 +17,61 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
+      title: "DALL-E Image Generator Clone",
+      projectInfo:
+        "This DALL-E clone application allows users to generate images based on a text prompt. The app uses the OpenAI language model to generate the image. Once the user chooses the image, the app will use the Cloudinary API to upload the image to the cloud. All of the information within the feed page is stored in a MongoDB database. ",
+      client: "Ruby Clinton",
+      technologies: "NextJS, TailwindCSS, OpenAI, Cloudinary, MongoDB",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "DALL-E Clone",
+        link: "https://next-dalle.vercel.app",
+      },
+      repo: {
+        name: "Repo",
+        link: "https://github.com/Apeves89/next-dalle",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/dalle-clone1.png",
+      sliderImages: ["images/projects/dalle-clone2.png"],
+      categories: [filters.DEVELOPMENT],
+    },
+    {
+      title: "Chat with PDFs",
+      projectInfo:
+        "This app allows users to upload PDF documents and ask questions about the document. Using LangChain and the OpenAI language model, the app will use similarity search to compare the splits of text stored in a vector database and the user's question. Then it will return the closest match between the two. ",
+      client: "Ruby Clinton",
+      technologies:
+        "Python, Django, LangChain, OpenAI, HuggingFace, Pinecone, NextJS, TailwindCSS",
+      industry: "Art & Design",
+      date: "July 16, 2019",
+      url: {
+        name: "Chat with PDFs",
+        link: "https://chat-docs-next-vert.vercel.app",
+      },
+      repo: {
+        name: "Backend",
+        link: "https://github.com/Apeves89/chat-docs-back",
+      },
+      socialLinks: {
+        facebook: "http://www.facebook.com/",
+        twitter: "http://www.twitter.com/",
+        google: "http://www.google.com/",
+        instagram: "http://www.instagram.com/",
+        mail: "mailto:example@gmail.com",
+      },
+      thumbImage: "images/projects/chatdocs2.png",
+      sliderImages: ["images/projects/chatdocs1.png"],
+      categories: [filters.DEVELOPMENT],
+    },
+    {
       title: "wastD",
       projectInfo:
         "wastD is a social media app to allow users to post their favorite cocktail drinks and comment on existing posts. Google Maps API is integrated to show the location added to the post. This app was created by a group 4 developers, including myself. The app is hosted on Heroku, please allow time for the app to start up before viewing.",
@@ -29,7 +84,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         link: "https://rocky-temple-80630.herokuapp.com/",
       },
       repo: {
-        name:"Backend",
+        name: "Backend",
         link: "https://github.com/sarameix/drink-rest-api",
       },
       socialLinks: {
@@ -58,8 +113,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "Project Showcase",
         link: "https://obscure-coast-07598.herokuapp.com/",
       },
-      repo:{
-        name:"Repo",
+      repo: {
+        name: "Repo",
         link: "https://github.com/Apeves89/ZoidbergCRUDapp",
       },
       socialLinks: {
@@ -72,7 +127,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       thumbImage: "images/projects/showcase-1.jpg",
       sliderImages: [
         "images/projects/showcase-2.jpeg",
-        "images/projects/showcase-3.jpeg"
+        "images/projects/showcase-3.jpeg",
       ],
       categories: [filters.DEVELOPMENT],
     },
@@ -88,8 +143,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "Crafting Stash",
         link: "https://desolate-island-81438.herokuapp.com/",
       },
-      repo:{
-        name:"Backend",
+      repo: {
+        name: "Backend",
         link: "https://github.com/romajoy/personal-stash-backend",
       },
       socialLinks: {
@@ -101,14 +156,16 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       },
       thumbImage: "images/projects/craftstash-1.jpeg",
       sliderImages: [
-        "images/projects/craftstash-2.jpeg","images/projects/craftstash-3.jpeg","images/projects/craftstash-4.jpeg",
+        "images/projects/craftstash-2.jpeg",
+        "images/projects/craftstash-3.jpeg",
+        "images/projects/craftstash-4.jpeg",
       ],
       categories: [filters.DEVELOPMENT],
     },
     {
       title: "Llama Amigurumi",
       projectInfo:
-      "After two years of crocheting, I found the perfect llama pattern to follow. I had to translate and transcribe this pattern into my notes for future iterations. This crochet pattern was created by Knitoys & Crafts. Video link provided below.",
+        "After two years of crocheting, I found the perfect llama pattern to follow. I had to translate and transcribe this pattern into my notes for future iterations. This crochet pattern was created by Knitoys & Crafts. Video link provided below.",
       client: "Ruby Clinton",
       technologies: "Crocheting",
       industry: "Art & Design",
@@ -117,8 +174,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "Knitoys & Crafts",
         link: "https://www.youtube.com/playlist?list=PLqKKxGCteJVz6Bm-8Zp4ARf0JcCPuB292",
       },
-      repo:{
-        name:"",
+      repo: {
+        name: "",
         link: "",
       },
       socialLinks: {
@@ -129,15 +186,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         mail: "mailto:example@gmail.com",
       },
       thumbImage: "images/projects/llama-1.jpg",
-      sliderImages: [
-        "images/projects/llama-1.jpg",
-      ],
+      sliderImages: ["images/projects/llama-1.jpg"],
       categories: [filters.CRAFTING],
     },
     {
       title: "Conrad the Crocodile",
       projectInfo:
-      "Conrad is one of my first and most intricate crochet patterns I have attempted so far. Consisted of 20+ parts that were required to be sewn together. Crochet pattern was created by IlDikko. Link to the pattern below.",
+        "Conrad is one of my first and most intricate crochet patterns I have attempted so far. Consisted of 20+ parts that were required to be sewn together. Crochet pattern was created by IlDikko. Link to the pattern below.",
       client: "Ruby Clinton",
       technologies: "Crocheting",
       industry: "Art & Design",
@@ -146,8 +201,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "IlDikko Crochet",
         link: "https://www.etsy.com/listing/246003846/amigurumi-pattern-conrad-the-crocodile?",
       },
-      repo:{
-        name:"",
+      repo: {
+        name: "",
         link: "",
       },
       socialLinks: {
@@ -158,9 +213,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         mail: "mailto:example@gmail.com",
       },
       thumbImage: "https://i.imgur.com/elHLPAE.jpg",
-      sliderImages: [
-        "https://i.imgur.com/KyI4Otj.jpg",
-      ],
+      sliderImages: ["https://i.imgur.com/KyI4Otj.jpg"],
       categories: [filters.CRAFTING],
     },
     {
@@ -175,8 +228,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "",
         link: "",
       },
-      repo:{
-        name:"",
+      repo: {
+        name: "",
         link: "",
       },
       socialLinks: {
@@ -187,9 +240,8 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         mail: "mailto:example@gmail.com",
       },
       thumbImage: "images/projects/newproject.jpg",
-      sliderImages: [
-      ],
-      categories: [filters.DEVELOPMENT,filters.CRAFTING],
+      sliderImages: [],
+      categories: [filters.DEVELOPMENT, filters.CRAFTING],
     },
     // {
     //   title: "Project Title 6",
@@ -363,7 +415,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                             <h5 className="text-white fw-400">
                               {project.title}
                             </h5>
-                            <span className="text-light">{project.categories}</span>
+                            <span className="text-light">
+                              {project.categories}
+                            </span>
                           </div>
                         </div>
                       </div>
