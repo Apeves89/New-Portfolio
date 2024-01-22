@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import { Tooltip } from "./Tooltip";
 import { Link } from "react-scroll";
 
-const Header = ({ classicHeader, darkTheme, setDarkTheme, homeRef, handleNavClick }) => {
+const Header = ({
+  classicHeader,
+  darkTheme,
+  setDarkTheme,
+  homeRef,
+  handleNavClick,
+}) => {
   const [isNavModalClose, setIsNavModalClose] = useState(true);
   return (
     <header id="header" className="sticky-top">
@@ -191,7 +197,7 @@ const Header = ({ classicHeader, darkTheme, setDarkTheme, homeRef, handleNavClic
             <li className="social-icons-linkedin">
               <Tooltip text="Linkedin" placement="top">
                 <a
-                  href="https://www.linkedin.com/in/alexis-peves-99141167/"
+                  href="https://www.linkedin.com/in/alexpeves/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -199,27 +205,33 @@ const Header = ({ classicHeader, darkTheme, setDarkTheme, homeRef, handleNavClic
                 </a>
               </Tooltip>
             </li>
-            { darkTheme ?
-            <li className="social-icons-reddit">
-              <Tooltip text="Light" placement="top">
-                <a className="lightdarkmode"
-                  onClick={()=>{setDarkTheme(!darkTheme)}}
-                >
-                  <i className="fas fa-sun bounce" />
-                </a>
-              </Tooltip>
-            </li>
-            :
-            <li className="social-icons-github">
-              <Tooltip text="Dark" placement="top">
-                <a className="lightdarkmode"
-                  onClick={()=>{setDarkTheme(!darkTheme)}}
-                >
-                  <i className="fas fa-moon bounce" />
-                </a>
-              </Tooltip>
-            </li>
-            }
+            {darkTheme ? (
+              <li className="social-icons-reddit">
+                <Tooltip text="Light" placement="top">
+                  <a
+                    className="lightdarkmode"
+                    onClick={() => {
+                      setDarkTheme(!darkTheme);
+                    }}
+                  >
+                    <i className="fas fa-sun bounce" />
+                  </a>
+                </Tooltip>
+              </li>
+            ) : (
+              <li className="social-icons-github">
+                <Tooltip text="Dark" placement="top">
+                  <a
+                    className="lightdarkmode"
+                    onClick={() => {
+                      setDarkTheme(!darkTheme);
+                    }}
+                  >
+                    <i className="fas fa-moon bounce" />
+                  </a>
+                </Tooltip>
+              </li>
+            )}
             <li className="social-icons-github">
               <Tooltip text="Github" placement="top">
                 <a
@@ -231,7 +243,6 @@ const Header = ({ classicHeader, darkTheme, setDarkTheme, homeRef, handleNavClic
                 </a>
               </Tooltip>
             </li>
-            
           </ul>
           <button
             onClick={(e) => {
